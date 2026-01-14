@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   static-website:
-    image: 390403859889.dkr.ecr.ap-south-1.amazonaws.com/my-app:latest
+    image: 390403859889.dkr.ecr.ap-south-1.amazonaws.com/static-website:latest
     container_name: static-website
     ports:
       - "80:80"
